@@ -35,7 +35,7 @@ set ignorecase	"检索时忽略大小写
 set helplang=cn	"中文帮助文档
 
 
-filetype off
+filetype off	"配置vundle所必需
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
@@ -47,6 +47,7 @@ Plugin 'moll/vim-node.git'
 
 call vundle#end()
 filetype plugin indent on
+"配置vundle结束
 
 "powerline{
 	set guifont=PowerlineSymbols\ for\ Powerline
