@@ -39,11 +39,13 @@ filetype off	"配置vundle所必需
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Plugin 'VundleVim/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'	"vundle本身
 
-Plugin 'scrooloose/nerdtree'
-Plugin 'Lokaltog/vim-powerline'
-Plugin 'moll/vim-node.git'
+Plugin 'scrooloose/nerdtree'	"树型目录
+Plugin 'Lokaltog/vim-powerline'	"底部提示条
+Plugin 'Valloric/YouCompleteMe' "自动补全
+
+Plugin 'moll/vim-node.git'		
 
 call vundle#end()
 filetype plugin indent on
