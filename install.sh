@@ -6,3 +6,6 @@ vim +PluginInstall +qall
 cd ~/.vim/bundle/YouCompleteMe
 ./install.py --clang-completer
 sudo npm install -g typescript
+
+cd ~/.vim/bundle/tern_for_vim
+npm install

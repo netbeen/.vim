@@ -44,6 +44,8 @@ Plugin 'VundleVim/Vundle.vim'	"vundle本身
 Plugin 'scrooloose/nerdtree'	"树型目录
 Plugin 'Lokaltog/vim-powerline'	"底部提示条
 Plugin 'Valloric/YouCompleteMe' "自动补全
+Plugin 'marijnh/tern_for_vim'	"Tern补全插件
+
 
 Plugin 'moll/vim-node.git'		
 
