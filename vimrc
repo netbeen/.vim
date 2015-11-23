@@ -63,10 +63,10 @@ if has("gui_running")
 	"禁止显示菜单栏和底部栏
 	set guioptions-=m
 	set guioptions-=T
-	set guioptions-=B
+	"set guioptions-=b
 
 	"设置字体，主题
-	set guifont=UbuntuMono\ 15
+	set guifont=UbuntuMono\ 16
 	colo evening
 
 	" 禁止显示滚动条
@@ -79,5 +79,6 @@ if has("gui_running")
 	set gcr=a:block-blinkon0
 
 	set showtabline=0       " 隐藏Tab栏
-    	set cursorline           " 突出显示当前行
+    set cursorline           " 突出显示当行
+	set linespace=1		" 用于与字号协调，减少底部白边
 endif
