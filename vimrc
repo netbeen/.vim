@@ -58,3 +58,26 @@ filetype plugin indent on
 	set t_Co=256
 	"let g:Powerline_symbols='fancy'
 "}
+
+if has("gui_running")
+	"禁止显示菜单栏和底部栏
+	set guioptions-=m
+	set guioptions-=T
+	set guioptions-=B
+
+	"设置字体，主题
+	set guifont=UbuntuMono\ 15
+	colo evening
+
+	" 禁止显示滚动条
+	set guioptions-=l
+	set guioptions-=L
+	set guioptions-=r
+	set guioptions-=R
+
+	" 禁止光标闪烁
+	set gcr=a:block-blinkon0
+
+	set showtabline=0       " 隐藏Tab栏
+    	set cursorline           " 突出显示当前行
+endif
