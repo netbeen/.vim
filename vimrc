@@ -46,6 +46,7 @@ Plugin 'Lokaltog/vim-powerline'	"底部提示条
 Plugin 'Valloric/YouCompleteMe' "自动补全
 Plugin 'marijnh/tern_for_vim'	"Tern补全插件
 
+Plugin 'zenorocha/dracula-theme', {'rtp': 'vim/'}	" 给VIM配置的配色
 
 Plugin 'moll/vim-node.git'		
 
@@ -59,6 +60,8 @@ filetype plugin indent on
 	"let g:Powerline_symbols='fancy'
 "}
 
+set background=dark
+
 if has("gui_running")
 	"禁止显示菜单栏和底部栏
 	set guioptions-=m
@@ -67,7 +70,7 @@ if has("gui_running")
 
 	"设置字体，主题
 	set guifont=UbuntuMono\ 16
-	colo torte
+	colorscheme dracula
 
 	" 禁止显示滚动条
 	set guioptions-=l
