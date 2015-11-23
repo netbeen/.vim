@@ -67,7 +67,7 @@ if has("gui_running")
 
 	"设置字体，主题
 	set guifont=UbuntuMono\ 16
-	colo evening
+	colo torte
 
 	" 禁止显示滚动条
 	set guioptions-=l
