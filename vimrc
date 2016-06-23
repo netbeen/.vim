@@ -10,6 +10,7 @@ set cursorline	"高亮显示当前行
 hi CursorLine cterm=NONE ctermbg=black guibg=red guifg=blue
 hi CursorColumn cterm=NONE ctermbg=black guibg=red guifg=red
 
+set backspace=2 "恢复mac下backspace键的功能
 
 set noexpandtab	"不用空格代替制表符
 set cindent	"C风格缩进
